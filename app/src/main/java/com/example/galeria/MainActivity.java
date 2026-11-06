@@ -1,6 +1,8 @@
 package com.example.galeria;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +23,11 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+    Button dalej = findViewById(R.id.dalej);
+    Button wstecz = findViewById(R.id.dalej);
+    ImageView zdjecie = findViewById(R.id.zdjecie);
+
+
+
+
 }
